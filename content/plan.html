@@ -1,0 +1,521 @@
+---
+title: Plan
+description: Get started with a free and open-source admin dashboard layout built with Tailwind CSS and Flowbite featuring charts, widgets, CRUD layouts, authentication pages, and more
+layout: dashboard
+footer: false
+---
+
+<div class="grid grid-cols-1 px-4 pt-6 xl:gap-4 dark:bg-gray-900">
+    <!-- Right Content -->
+    <div class="col-span-2">
+        <div class="p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+            <div class="flow-root">
+                <h3 class="text-xl font-semibold dark:text-white">Plan</h3>
+                <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+                    <li class="py-4">
+                        <div class=" items-center space-x-4">
+
+                            <label for="plan-type" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit type</label>
+
+                            <div class="flex">
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-radio" type="radio" value="" name="plan-type" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Internal</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-2-radio" type="radio" value="" name="plan-type" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-2-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">External</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input checked id="inline-checked-radio" type="radio" value="" name="plan-type" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">All</label>
+                                </div>
+                            </div>
+                                                        
+                        </div>
+                    </li>
+                    <li class="py-4">
+                        <div class="space-x-4">
+
+                            <label for="iso-type" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ISO type</label>
+
+                            <div class="flex">
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-radio" type="radio" value="" name="iso" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">ISO 9001</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-2-radio" type="radio" value="" name="iso" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-2-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">ISO 14001</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input checked id="inline-checked-radio" type="radio" value="" name="iso" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">27001</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input checked id="inline-checked-radio" type="radio" value="" name="iso" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">20000</label>
+                                </div>
+                            </div>
+                                                        
+                        </div>
+                    </li>
+                    <li class="py-4">
+                        <div class="space-x-4">
+
+                            <label for="audit-status" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit status</label>
+
+                            <div class="flex">
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-radio" type="radio" value="" name="status" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">All</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-2-radio" type="radio" value="" name="status" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-2-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Planned</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input checked id="inline-checked-radio" type="radio" value="" name="status" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">In Progress</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input checked id="inline-checked-radio" type="radio" value="" name="status" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Completed</label>
+                                </div>
+                            </div>
+                                                        
+                        </div>
+                    </li>
+                    <li class="pt-4 pb-6">
+
+
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <h3 class="text-xl font-semibold dark:text-white">Audit Schedule</h3>
+
+    <div>
+        <button class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">+ New Audit</button>
+    </div>
+
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                    Audit / Functional Area
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Jan
+                </th>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                    Feb
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Mar
+                </th>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                    Apr
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    May
+                </th>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                    Jun
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Jul
+                </th>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                    Aug
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Sep
+                </th>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                    Oct
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Nov
+                </th>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                    Dec
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    Sales, Marketing, BDM
+                </th>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    28-30
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    02-07
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+            </tr>
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    Procurement, Purchase
+                </th>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+                    28-30
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    02-07
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+            </tr>
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    Stores, Warehouse
+                </th>
+                <td class="px-6 py-4">
+                    28-30
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    02-07
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+            </tr>
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    Logistics, Dispatch
+                </th>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    28-30
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    02-07
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+            </tr>
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    HR &amp; Training
+                </th>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    28-30
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    02-07
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+            </tr>
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    Administration
+                </th>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    28-30
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    02-07
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+            </tr>
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    IT
+                </th>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    28-30
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    02-07
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+            </tr>
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    Maintenance
+                </th>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    28-30
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    02-07
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+            </tr>
+            <tr class="border-b border-gray-200 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                    Design &amp; Development
+                </th>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    28-30
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+                    
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+                    02-07
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+                <td class="px-6 py-4">
+
+                </td>
+                <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

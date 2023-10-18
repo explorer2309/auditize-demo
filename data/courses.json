@@ -1,0 +1,135 @@
+[
+    {
+        "id": 122314,
+        "courseNumber": "FA-2023",
+        "title": "Food & Hygiene",
+        "description": "Description of the food & hygiene course .....",
+        "duration": "4 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": true,
+        "certificateValidity": "12 months"
+    },
+    {
+        "id": 122314,
+        "courseNumber": "HS-2023",
+        "title": "Health & safety",
+        "description": "Description of the health and safety course .....",
+        "duration": "2 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": false
+    },
+    {
+        "id": 122314,
+        "courseNumber": "FA-2023",
+        "title": "Food & Hygiene",
+        "description": "Description of the food & hygiene course .....",
+        "duration": "4 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": true,
+        "certificateValidity": "12 months"
+    },
+    {
+        "id": 122314,
+        "courseNumber": "HS-2023",
+        "title": "Health & safety",
+        "description": "Description of the health and safety course .....",
+        "duration": "2 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": false
+    },
+    {
+        "id": 122314,
+        "courseNumber": "FA-2023",
+        "title": "Food & Hygiene",
+        "description": "Description of the food & hygiene course .....",
+        "duration": "4 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": true,
+        "certificateValidity": "12 months"
+    },
+    {
+        "id": 122314,
+        "courseNumber": "HS-2023",
+        "title": "Health & safety",
+        "description": "Description of the health and safety course .....",
+        "duration": "2 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": false
+    },
+    {
+        "id": 122314,
+        "courseNumber": "FA-2023",
+        "title": "Food & Hygiene",
+        "description": "Description of the food & hygiene course .....",
+        "duration": "4 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": true,
+        "certificateValidity": "12 months"
+    },
+    {
+        "id": 122314,
+        "courseNumber": "HS-2023",
+        "title": "Health & safety",
+        "description": "Description of the health and safety course .....",
+        "duration": "2 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": false
+    },
+    {
+        "id": 122314,
+        "courseNumber": "FA-2023",
+        "title": "Food & Hygiene",
+        "description": "Description of the food & hygiene course .....",
+        "duration": "4 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": true,
+        "certificateValidity": "12 months"
+    },
+    {
+        "id": 122314,
+        "courseNumber": "HS-2023",
+        "title": "Health & safety",
+        "description": "Description of the health and safety course .....",
+        "duration": "2 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": false
+    },
+    {
+        "id": 122314,
+        "courseNumber": "FA-2023",
+        "title": "Food & Hygiene",
+        "description": "Description of the food & hygiene course .....",
+        "duration": "4 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": true,
+        "certificateValidity": "12 months"
+    },
+    {
+        "id": 122314,
+        "courseNumber": "HS-2023",
+        "title": "Health & safety",
+        "description": "Description of the health and safety course .....",
+        "duration": "2 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": false
+    },
+    {
+        "id": 122314,
+        "courseNumber": "FA-2023",
+        "title": "Food & Hygiene",
+        "description": "Description of the food & hygiene course .....",
+        "duration": "4 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": true,
+        "certificateValidity": "12 months"
+    },
+    {
+        "id": 122314,
+        "courseNumber": "HS-2023",
+        "title": "Health & safety",
+        "description": "Description of the health and safety course .....",
+        "duration": "2 hrs",
+        "prerequisites": " ...  ...  ...  ...  ... ",
+        "providesCertificate": false
+    }
+]

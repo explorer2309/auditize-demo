@@ -11,7 +11,52 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
-        "action": "None"
+        "action": "None",
+        "origin": "Customer / Supplier / Internal Audit",
+        "rootCauses": [
+            {
+                "rootCause": "aaaaaaa",
+                "capaActions": [
+                    {
+                        "correction": "",
+                        "correctiveAction": "ca - a",
+                        "verificatiopnPlan": "",
+                        "targetImplmentationDate": "",
+                        "verifiedBy": "",
+                        "verifiedOn": ""
+                    },
+                    {
+                        "correction": "",
+                        "correctiveAction": "ca - a",
+                        "verificatiopnPlan": "",
+                        "targetImplmentationDate": "",
+                        "verifiedBy": "",
+                        "verifiedOn": ""
+                    }
+                ]
+            },
+            {
+                "rootCause": "bbbbbbb",
+                "capaActions": [
+                    {
+                        "correction": "",
+                        "correctiveAction": "ca - a",
+                        "verificatiopnPlan": "",
+                        "targetImplmentationDate": "",
+                        "verifiedBy": "",
+                        "verifiedOn": ""
+                    },
+                    {
+                        "correction": "",
+                        "correctiveAction": "ca - a",
+                        "verificatiopnPlan": "",
+                        "targetImplmentationDate": "",
+                        "verifiedBy": "",
+                        "verifiedOn": ""
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 194556,

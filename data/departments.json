@@ -1,0 +1,76 @@
+{
+    "iso9001": {
+        "departments": [
+            "Sales, Marketing and Business Development",
+            "Procurement and Purchase",
+            "Store and Warehouse",
+            "Logistics and Dispatch",
+            "Human Resource and Training",
+            "Administration",
+            "Information Technology",
+            "Maintenance",
+            "Design and Development",
+            "Production and Manufacturing",
+            "Quality Assurance, Quality Control and Labs",
+            "Estimation and Contracts",
+            "Finance"
+        ]
+    },
+    "iso14001": {
+        "processes": [
+            "Clause 4: Context of the Organization",
+            "Clause 5: Leadership",
+            "Clause 6: Planning",
+            "Clause 7: Support",
+            "Clause 8:Operations",
+            "Clause 9: Performance Evaluation",
+            "Clause 10: Improvement"
+        ]
+    },
+    "iso20000": {
+        "processes": [
+            "Clause 4: Context of the Organization",
+            "Clause 5: Leadership",
+            "Clause 6: Planning",
+            "Clause 7: Support",
+            "Clause 8:Operations",
+            "Clause 9: Performance Evaluation",
+            "Clause 10: Improvement"
+        ]
+    },
+    "iso45001": {
+        "processes": [
+            "Clause 4: Context of the Organization",
+            "Clause 5: Leadership",
+            "Clause 6: Planning",
+            "Clause 7: Support",
+            "Clause 8:Operations",
+            "Clause 9: Performance Evaluation",
+            "Clause 10: Improvement"
+        ]
+    },
+    "xxxxxxxx": {
+        "departments": [
+            "HSE Management – Hazard/Risk & Aspect/Impact registers – evaluation process",
+            "Life cycle, Legal & Other Requirements",
+            "Evaluation of Compliance, Communication – internal/external",
+            "Participation & Consultation of Workers",
+            "Emergency preparedness & response",
+            "Performance Monitoring & Measurement",
+            "Incident reporting & investigation management including Corrective Action",
+            "Operational Controls including Waste Managemeols including Waste Management"
+        ]
+    },
+    "iso27001": {
+        "departments": [
+            "ICT – Information Security incidents",
+            "Antivirus",
+            "VAPT",
+            "change management",
+            "Cryptography",
+            "Assets Management",
+            "Information Classifications and Labeling",
+            "CT – System Applications Web Software"
+        ]
+    }
+}

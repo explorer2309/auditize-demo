@@ -15,100 +15,59 @@ footer: false
         </button>
     </div>
 
-    <div class="w-full mb-1">
-        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-            <li class="py-4">
-                <div class=" items-center space-x-4">
-
-                    <label for="plan-type" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit type</label>
-
-                    <div class="flex">
-                        <div class="flex items-center mr-4">
-                            <input id="inline-radio" type="radio" value="" name="t" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Internal</label>
-                        </div>
-                        <div class="flex items-center mr-4">
-                            <input id="inline-2-radio" type="radio" value="" name="t" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-2-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">External</label>
-                        </div>
-                        <div class="flex items-center mr-4">
-                            <input checked id="inline-checked-radio" type="radio" value="" name="t" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">All</label>
-                        </div>
-                    </div>
-                                                
+    <div class="grid grid-cols-4 gap-4">
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit type</label>
+            <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <option>Any</option>
+                <option>Internal</option>
+                <option>External</option>
+            </select>
+        </div>
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Standards</label>
+            <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <option >ISO 9001</option>
+                <option >ISO 14001</option>
+                <option >ISO 20000</option>
+                <option >ISO 45001</option>
+            </select>
+        </div>
+        <div class="col-span-2">
+            <label for="audit-status" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit status</label>
+            <div class="flex py-3">
+                <div class="flex items-center mr-4">
+                    <input checked id="inline-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <label for="inline-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">All</label>
                 </div>
-            </li>
-            <li class="py-4">
-                <div class="space-x-4">
-
-                    <label for="iso-type" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Standards</label>
-
-                    <div class="flex">
-                        <div class="flex items-center mr-4">
-                            <input id="inline-radio" type="radio" value="" name="i" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">ISO 9001</label>
-                        </div>
-                        <div class="flex items-center mr-4">
-                            <input id="inline-2-radio" type="radio" value="" name="i" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-2-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">ISO 14001</label>
-                        </div>
-                        <!-- <div class="flex items-center mr-4">
-                            <input checked id="inline-checked-radio" type="radio" value="" name="i" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">ISO 27001</label>
-                        </div>
-                        <div class="flex items-center mr-4">
-                            <input id="inline-checked-radio" type="radio" value="" name="i" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">ISO 20000</label>
-                        </div> -->
-                        <div class="flex items-center mr-4">
-                            <input id="inline-checked-radio" type="radio" value="" name="i" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">ISO 22000</label>
-                        </div>
-                        <div class="flex items-center mr-4">
-                            <input id="inline-checked-radio" type="radio" value="" name="i" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">ISO 45001</label>
-                        </div>
-                    </div>
-                                                
+                <div class="flex items-center mr-4">
+                    <input id="inline-2-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <label for="inline-2-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Planned</label>
                 </div>
-            </li>
-            <li class="py-4">
-                <div class="space-x-4">
-
-                    <label for="audit-status" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit status</label>
-
-                    <div class="flex">
-                        <div class="flex items-center mr-4">
-                            <input checked id="inline-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">All</label>
-                        </div>
-                        <div class="flex items-center mr-4">
-                            <input id="inline-2-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-2-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Planned</label>
-                        </div>
-                        <div class="flex items-center mr-4">
-                            <input id="inline-checked-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">In Progress</label>
-                        </div>
-
-                        <div class="flex items-center mr-4">
-                            <input id="inline-checked-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Completed</label>
-                        </div>
-                        <div class="flex items-center mr-4">
-                            <input id="inline-checked-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Cancelled</label>
-                        </div>
-                    </div>
-                                                
+                <div class="flex items-center mr-4">
+                    <input id="inline-checked-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">In Progress</label>
                 </div>
-            </li>
-        </ul>
-
-
+                <div class="flex items-center mr-4">
+                    <input id="inline-checked-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Completed</label>
+                </div>
+                <div class="flex items-center mr-4">
+                    <input id="inline-checked-radio" type="checkbox" value="" name="s" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <label for="inline-checked-radio" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Cancelled</label>
+                </div>
+            </div>
+                                        
+        </div>    
     </div>
 </div>
+
+
+<div class="p-4 items-center justify-between block sm:flex">
+    <button type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">&lt; Prev. 3 months</button>
+    <button type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Next 3 months &gt;</button>
+</div>
+
 <div class="flex flex-col">
     <div class="overflow-x-auto">
         <div class="inline-block min-w-full align-middle">
@@ -117,7 +76,7 @@ footer: false
                     <thead class="bg-gray-100 dark:bg-gray-700">
                         <tr>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
-                                Audit / Functional Area
+                                Functional Area
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
                                 Jan
@@ -390,7 +349,4 @@ footer: false
         </div>
     </form>
 
-    
-<pre class="text-white">Make rolling months</pre>
-<pre class="text-white">Confirm mandatory fields for creating audit</pre>
 </div>

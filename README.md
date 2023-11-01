@@ -29,6 +29,7 @@
 - Approver and reviewer of document should be from user or people?
 - CR status workflow
 - When all approvers and reviewer have approved, then the version of the document changes
+- Confirm mandatory fields for creating audit
 
 # Changes to edit NC
 

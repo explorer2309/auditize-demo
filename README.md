@@ -8,7 +8,7 @@
 
 - Admin - Can delete records
 
-# User section needed
+# ~~User section needed~~
 
 - User name
 - Email
@@ -33,7 +33,7 @@
 
 # Changes to edit NC
 
-- Make 3 tabs - Details (Auditor), CAR (Auditee), Auditors comments (Auditor)
+- ~~Make 3 tabs - Details (Auditor), CAR (Auditee), Auditors comments (Auditor)~~
 
 CAR data fields
 

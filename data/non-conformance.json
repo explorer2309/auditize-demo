@@ -1,7 +1,7 @@
 [
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -12,7 +12,7 @@
         "owners": "None",
         "risk": "Low",
         "action": "None",
-        "origin": "Customer / Supplier / Internal Audit",
+        "origin": "Customer",
         "rootCauses": [
             {
                 "rootCause": "aaaaaaa",
@@ -60,7 +60,7 @@
     },
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -70,11 +70,12 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "origin": "Supplier",
         "action": "None"
     },
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -84,11 +85,12 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "origin": "Internal Audit",
         "action": "None"
     },
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -98,11 +100,12 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "origin": "Customer",
         "action": "None"
     },
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -112,11 +115,12 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "origin": "Supplier",
         "action": "None"
     },
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -126,11 +130,12 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "origin": "Internal Audit",
         "action": "None"
     },
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -140,11 +145,12 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "origin": "Customer",
         "action": "None"
     },
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -154,11 +160,12 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "origin": "Supplier",
         "action": "None"
     },
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -168,11 +175,12 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "origin": "Supplier",
         "action": "None"
     },
     {
         "id": 194556,
-        "title": "title ...",
+        "title": "Non conformance title",
         "desc": "desc ... ... ...",
         "status": "Active",
         "plannedCompletion": "12-Dec-2023",
@@ -182,6 +190,7 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "origin": "Internal Audit",
         "action": "None"
     }
 ]

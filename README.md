@@ -16,7 +16,7 @@
 - Department [multiple]
 - Role
 
-# Site section needed
+# ~~Site section needed~~
 
 - Name
 - Address
@@ -35,7 +35,7 @@
 
 - ~~Make 3 tabs - Details (Auditor), CAR (Auditee), Auditors comments (Auditor)~~
 
-CAR data fields
+~~CAR data fields~~
 
 - Root cause (text)
 - Correction

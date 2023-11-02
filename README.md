@@ -47,14 +47,14 @@
 # Document details changes
 
 - App approval date to approval tab
-- Add facility to add approver
+- ~~Add facility to add approver~~
 
 - App review date to approval tab
-- Add facility to add reviewer
+- ~~Add facility to add reviewer~~
 
-- Approve and reject button in each row
+- ~~Approve and reject button in each row~~
 
-- Delete option in each row
+- ~~Delete option in each row~~
 
 - On click of approve or reject, show popup to popultae comment
 

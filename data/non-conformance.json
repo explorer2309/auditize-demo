@@ -13,6 +13,8 @@
         "risk": "Low",
         "action": "None",
         "origin": "Customer",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "rootCauses": [
             {
                 "rootCause": "aaaaaaa",
@@ -71,6 +73,8 @@
         "owners": "None",
         "risk": "Low",
         "origin": "Supplier",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "action": "None"
     },
     {
@@ -86,6 +90,8 @@
         "owners": "None",
         "risk": "Low",
         "origin": "Internal Audit",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "action": "None"
     },
     {
@@ -100,6 +106,8 @@
         "industry": "Service",
         "owners": "None",
         "risk": "Low",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "origin": "Customer",
         "action": "None"
     },
@@ -116,6 +124,8 @@
         "owners": "None",
         "risk": "Low",
         "origin": "Supplier",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "action": "None"
     },
     {
@@ -131,6 +141,8 @@
         "owners": "None",
         "risk": "Low",
         "origin": "Internal Audit",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "action": "None"
     },
     {
@@ -146,6 +158,8 @@
         "owners": "None",
         "risk": "Low",
         "origin": "Customer",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "action": "None"
     },
     {
@@ -161,6 +175,8 @@
         "owners": "None",
         "risk": "Low",
         "origin": "Supplier",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "action": "None"
     },
     {
@@ -176,6 +192,8 @@
         "owners": "None",
         "risk": "Low",
         "origin": "Supplier",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "action": "None"
     },
     {
@@ -191,8 +209,8 @@
         "owners": "None",
         "risk": "Low",
         "origin": "Internal Audit",
+        "classification": "Major",
+        "department": "Produrement &amp; Purchase",
         "action": "None"
     }
 ]
-
-

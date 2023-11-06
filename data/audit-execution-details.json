@@ -3,28 +3,36 @@
         "checkpoint": "Checkpoint number 1",
         "nonConformance": "Something about conformance here ...",
         "opportunityToImprove": "Things can always be improved",
-        "positve": "You are doing well"
+        "positve": "Ghanta bhi nahi !"
     },
     {
-        "checkpoint": "Checkpoint number 1",
+        "checkpoint": "Checkpoint number 2",
         "nonConformance": "Something about conformance here ...",
         "opportunityToImprove": "Things can always be improved",
-        "positve": "You are doing well"
+        "positve": "Babaji ka thullu"
     },
     {
-        "checkpoint": "Checkpoint number 1",
+        "checkpoint": "Checkpoint number 3",
         "nonConformance": "",
         "opportunityToImprove": "Things can always be improved",
         "positve": ""
     },
     {
-        "checkpoint": "Checkpoint number 1",
-        "positve": "You are doing well"
+        "checkpoint": "Checkpoint number 23",
+        "nonConformance": "",
+        "opportunityToImprove": "Things can always be improved",
+        "positve": ""
     },
     {
-        "checkpoint": "Checkpoint number 4"
+        "checkpoint": "Checkpoint number 4",
+        "nonConformance": "",
+        "opportunityToImprove": "",
+        "positve": ""
     },
     {
-        "checkpoint": "Checkpoint number 5"
+        "checkpoint": "Checkpoint number 5",
+        "nonConformance": "",
+        "opportunityToImprove": "",
+        "positve": ""
     }
 ]

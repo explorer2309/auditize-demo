@@ -44,13 +44,13 @@ footer: false
                     <thead class="bg-gray-100 dark:bg-gray-700">
                         <tr>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                Audit start date
+                            </th>
+                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
                                 Standard
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
                                 Functional area
-                            </th>
-                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
-                                Audit start date
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
                                 Status
@@ -64,18 +64,26 @@ footer: false
                         {{< products.inline >}}
                         {{- range (index $.Site.Data "audit-executions") }}
                         <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                            <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .auditDate }}</td>
                             <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .standard }}</td>
                             <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .department }}</td>
-                            <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .auditDate }}</td>
                             <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .status }}</td>
-
                             <td class="p-4 space-x-2 whitespace-nowrap">
-                                <button type="button"  data-drawer-target="drawer-update-product-default" data-drawer-show="drawer-update-product-default" aria-controls="drawer-update-product-default" data-drawer-placement="right"  
+                                <a  href="../details" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" id="updateProductButton" 
                                     class="text-blue-700 border border-blue-700 hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800 dark:hover:bg-blue-500">
-                                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 19">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15h.01M4 12H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-3M9.5 1v10.93m4-3.93-4 4-4-4"/>
+
+                                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.75 4H19M7.75 4a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 4h2.25m13.5 6H19m-2.25 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 10h11.25m-4.5 6H19M7.75 16a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 16h2.25"/>
                                     </svg>
-                                    <span class="sr-only">Download</span>
+                                    <span class="sr-only">Update</span>
+                                </a>
+
+                                <button type="button" id="deleteProductButton" data-drawer-target="drawer-delete-product-default" data-drawer-show="drawer-delete-product-default" aria-controls="drawer-delete-product-default" data-drawer-placement="right"
+                                    class="text-red-700 border border-red-600 hover:bg-red-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-red-800 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-red-600 dark:text-red-500 dark:hover:text-white dark:focus:ring-red-300 dark:hover:bg-red-500">
+                                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h16M7 8v8m4-8v8M7 1h4a1 1 0 0 1 1 1v3H6V2a1 1 0 0 1 1-1ZM3 5h12v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5Z"/>
+                                    </svg>
+                                    <span class="sr-only">Delete</span>
                                 </button>
                             </td>
                         </tr>

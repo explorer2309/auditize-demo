@@ -1,0 +1,89 @@
+---
+title: Audit execution
+description: courses Courses module
+layout: dashboard
+footer: false
+---
+
+<div class="p-4 bg-white block border-b border-gray-200 lg:mt-1.5 dark:bg-gray-800 dark:border-gray-700">
+    <div class="w-full mb-4 block">
+        <h1 class="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">All audit executions</h1>
+    </div>
+
+
+    <div class="grid grid-cols-4 gap-4">
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Standard</label>
+            <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <option >ISO 9001</option>
+                <option >ISO 14001</option>
+                <option >ISO 20000</option>
+                <option >ISO 45001</option>
+            </select>
+        </div>
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit/Functional area</label>
+            <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <option selected>Sales / Marketing</option>
+                <option>Procurement, Purchase</option>
+                <option>Stores, Warehouse</option>
+                <option>Logistics, Dispatch</option>
+                <option>HR & courses</option>
+                <option>Administration</option>
+                <option>Design & Development</option>
+            </select>
+        </div>
+        </div>
+    
+</div>
+<div class="flex flex-col">
+    <div class="overflow-x-auto">
+        <div class="inline-block min-w-full align-middle">
+            <div class="overflow-hidden shadow">
+                <table class="min-w-full divide-y divide-gray-200 table-fixed dark:divide-gray-600">
+                    <thead class="bg-gray-100 dark:bg-gray-700">
+                        <tr>
+                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                Standard
+                            </th>
+                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                Functional area
+                            </th>
+                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                Audit start date
+                            </th>
+                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                Status
+                            </th>
+                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
+                                
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
+                        {{< products.inline >}}
+                        {{- range (index $.Site.Data "audit-executions") }}
+                        <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                            <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .standard }}</td>
+                            <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .department }}</td>
+                            <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .auditDate }}</td>
+                            <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .status }}</td>
+
+                            <td class="p-4 space-x-2 whitespace-nowrap">
+                                <button type="button"  data-drawer-target="drawer-update-product-default" data-drawer-show="drawer-update-product-default" aria-controls="drawer-update-product-default" data-drawer-placement="right"  
+                                    class="text-blue-700 border border-blue-700 hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800 dark:hover:bg-blue-500">
+                                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 19">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15h.01M4 12H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-3M9.5 1v10.93m4-3.93-4 4-4-4"/>
+                                    </svg>
+                                    <span class="sr-only">Download</span>
+                                </button>
+                            </td>
+                        </tr>
+                        {{ end -}}
+                        {{< /products.inline >}}                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -392,7 +392,7 @@ footer: false
                 <form action="#">
                     <div class="grid grid-cols-2 gap-6">
                         <div>
-                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Standards</label>
+                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Standards *</label>
                             <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                                 <option >ISO 9001</option>
                                 <option >ISO 14001</option>
@@ -401,7 +401,7 @@ footer: false
                             </select>
                         </div>
                         <div>
-                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit/Functional area</label>
+                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit/Functional area *</label>
                             <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                                 <option selected>Sales / Marketing</option>
                                 <option>Procurement, Purchase</option>
@@ -413,14 +413,14 @@ footer: false
                             </select>
                         </div>
                         <div>
-                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit type</label>
+                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit type *</label>
                             <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                                 <option selected>Internal</option>
                                 <option>External</option>
                             </select>
                         </div>
                         <div>
-                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Status</label>
+                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Status *</label>
                             <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                                 <option>Planned</option>
                                 <option selected>In progress</option>
@@ -429,28 +429,29 @@ footer: false
                             </select>
                         </div>
                         <div>
-                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Start Date</label>
+                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Start Date *</label>
                             <input type="datetime-local" name="title" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Process non-confirmance" required="">
                         </div>
                         <div>
-                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">End Date</label>
+                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">End Date *</label>
                             <input type="datetime-local" name="title" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Process non-confirmance" required="">
                         </div>
                         <div class="col-span-2">
-                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Scope</label>
+                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Scope *</label>
                             <textarea id="description" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="">details here ... ... ...</textarea>
                         </div>
                         <div>
-                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Internal Auditor</label>
+                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Internal auditor / External auditor (switch)</label>
                             <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                                <option selected></option>
                                 <option>John</option>
-                                <option selected>Paul</option>
+                                <option >Paul</option>
                                 <option>Simon Brunton</option>
                             </select>
                         </div>
                         <div>
                             <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Auditee</label>
-                            <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type to search" required="">
+                            <input type="search" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Type to search" required="">
                         </div>
                     </div>
             
@@ -471,9 +472,7 @@ footer: false
                 </form>
 
             </div>
-                
-
-            </div>
         </div>
+    </div>
 </div>
   

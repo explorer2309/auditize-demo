@@ -17,7 +17,10 @@ footer: false
             <a href="/document-details/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Overview</a>
         </li>
         <li class="mr-2">
-            <a href="/document-details-approval-workflow/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" aria-current="page">Approval Workflow</a>
+            <a href="/document-details-reviews/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" aria-current="page">Reviews</a>
+        </li>
+        <li class="mr-2">
+            <a href="/document-details-approvals/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" aria-current="page">Approvals</a>
         </li>
         <li class="mr-2">
             <a href="/document-details-change-requests/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Change Requests</a>
@@ -89,16 +92,9 @@ footer: false
             
             <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
 
-                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-900 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter related document number" required>
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-
-                <td class="p-4 space-x-2 whitespace-nowrap">
-                    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add document</button>
+                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white" colspan="6">
+                    <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-96 p-2.5 dark:bg-gray-900 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter related document number" required>
+                    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add document relation</button>
                 </td>
             </tr>
         </tbody>

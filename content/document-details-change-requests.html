@@ -17,7 +17,10 @@ footer: false
             <a href="/document-details/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Overview</a>
         </li>
         <li class="mr-2">
-            <a href="/document-details-approval-workflow/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" aria-current="page">Approval Workflow</a>
+            <a href="/document-details-reviews/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" aria-current="page">Reviews</a>
+        </li>
+        <li class="mr-2">
+            <a href="/document-details-approvals/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" aria-current="page">Approvals</a>
         </li>
         <li class="mr-2">
             <a href="/document-details-change-requests/" class="inline-block p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500">Change Requests</a>
@@ -67,9 +70,6 @@ footer: false
                     Raised on
                 </th>
                 <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
-                    Attachments
-                </th>
-                <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
                     Document Id
                 </th>
                 <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
@@ -89,7 +89,6 @@ footer: false
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .status }}</td>
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .raisedBy }}</td>
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .raisedOn }}</td>
-                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .attachments }}</td>
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .documentId }}</td>
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .documentVersion }}</td>
 
@@ -133,17 +132,17 @@ footer: false
                     <div class="grid grid-cols-1 gap-6">
 
                         <div>
-                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Title</label>
+                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Title *</label>
                             <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="" required="">
                         </div>
 
                         <div class="">
-                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Description</label>
+                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Description *</label>
                             <textarea id="description" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="">details here ... ... ...</textarea>
                         </div>
 
                         <div>
-                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Status</label>
+                            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Status *</label>
                             <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                                 <option>Planned</option>
                                 <option selected>In progress</option>
@@ -151,13 +150,17 @@ footer: false
                                 <option>Cancelled</option>
                             </select>
                         </div>
+                        <div>
+                            <label for="biography" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Attachments</label>
+                            <input class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="file_input" type="file">
+                        </div>
                     </div>
             
                     <div class="flex space-x-4 mt-6">
                         <button type="submit" class="text-white whitespace-nowrap justify-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
                             Save change request
                         </button>
-                        <button type="button" data-drawer-dismiss="drawer-create-product-default" aria-controls="drawer-create-product-default" class="inline-flex justify-center text-gray-500 items-center bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-primary-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                        <button type="button"  data-modal-hide="authentication-modal" aria-controls="drawer-create-product-default" class="inline-flex justify-center text-gray-500 items-center bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-primary-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
                             <svg aria-hidden="true" class="w-5 h-5 -ml-1 sm:mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                             Cancel
                         </button>

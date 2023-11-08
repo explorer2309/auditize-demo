@@ -43,7 +43,7 @@ footer: false
                                 Classification
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
-                                Department
+                                Audit/Functional area
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
                             </th>
@@ -139,7 +139,7 @@ footer: false
     <form action="#">
         <div class="space-y-4">
             <div>
-                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Origin</label>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Origin *</label>
                 <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option>Please select ...</option>
                     <option>Customer</option>
@@ -148,52 +148,7 @@ footer: false
                 </select>
             </div>
             <div>
-                <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Title</label>
-                <input type="text" name="title" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Process non-confirmance" required="">
-            </div>
-            <div>
-                <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Description</label>
-                <textarea id="description" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="">details here ... ... ...</textarea>
-            </div>
-            <div>
-                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Classification</label>
-                <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option>Minor</option>
-                    <option selected>Major</option>
-                </select>
-            </div>
-            <div>
-                <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Objective evidence</label>
-                <textarea id="description" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="">details here ... ... ...</textarea>
-            </div>
-            <div>
-                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Status</label>
-                <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option>Please select ...</option>
-                    <option>Active</option>
-                    <option selected>Completed</option>
-                    <option>Abandoned</option>
-                </select>
-            </div>
-            <div>
-                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Target completion period</label>
-                <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option>Please select ...</option>
-                    <option>30</option>
-                    <option selected>60</option>
-                    <option>90</option>
-                </select>
-            </div>
-            <div>
-                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Target Completion (auto-calculated)</label>
-                <input type="date" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="123 123 123456" required="">
-            </div>
-            <div>
-                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Site</label>
-                <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Timbaktu" required="">
-            </div>
-            <div>
-                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Department</label>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit/Functional area *</label>
                 <select id="discount-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option selected="">Please select ...</option>
                     <option value="5">Sales, Marketing and Business Development</option>
@@ -206,6 +161,52 @@ footer: false
                     <option value="10">Maintenance</option>
                 </select>
             </div>
+            <div>
+                <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Title *</label>
+                <input type="text" name="title" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Process non-confirmance" required="">
+            </div>
+            <div>
+                <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Description *</label>
+                <textarea id="description" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="">details here ... ... ...</textarea>
+            </div>
+            <div>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Classification *</label>
+                <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                    <option>Minor</option>
+                    <option selected>Major</option>
+                </select>
+            </div>
+            <div>
+                <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Objective evidence *</label>
+                <textarea id="description" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="">details here ... ... ...</textarea>
+            </div>
+            <div>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Status *</label>
+                <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                    <option>Please select ...</option>
+                    <option>Active</option>
+                    <option selected>Completed</option>
+                    <option>Abandoned</option>
+                </select>
+            </div>
+            <div>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Target completion period *</label>
+                <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                    <option>Please select ...</option>
+                    <option>30</option>
+                    <option selected>60</option>
+                    <option>90</option>
+                </select>
+            </div>
+            <div>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Target Completion (auto-calculated) *</label>
+                <input type="date" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="123 123 123456" required="">
+            </div>
+            <div>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Site</label>
+                <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Timbaktu" required="">
+            </div>
+
 
             <div class="flex justify-center w-full pb-4 space-x-4 md:px-4">
                 <button type="submit" class="text-white w-full justify-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
@@ -309,7 +310,7 @@ footer: false
                                     <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="123 123 123456" required="">
                                 </div>
                                 <div>
-                                    <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Department</label>
+                                    <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit/Functional area</label>
                                     <select id="discount-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                                         <option selected="">Please select ...</option>
                                         <option value="5">Sales, Marketing and Business Development</option>

@@ -36,9 +36,6 @@ footer: false
                                 Function Area
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
-                                Department
-                            </th>
-                            <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
                                 Document Id
                             </th>
                             <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase dark:text-gray-400">
@@ -80,7 +77,6 @@ footer: false
                                 <div class="text-sm font-normal text-gray-500 dark:text-gray-400">{{ .auditName }}</div>
                             </td>
                             <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .functionArea }}</td>
-                            <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .department }}</td>
                             <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .documentId }}</td>
                             <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .documentTitle }}</td>
                             <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ .author }}</td>
@@ -177,7 +173,7 @@ footer: false
                 </select>
             </div>
             <div>
-                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit/Functional area</label>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit/Functional area *</label>
                 <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option selected></option>
                     <option>Sales / Marketing</option>

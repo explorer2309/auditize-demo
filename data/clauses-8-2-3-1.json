@@ -1,0 +1,22 @@
+[
+  {
+    "sr": "a",
+    "title": "requirements specified by the customer, including the requirements for delivery and post-delivery activities"
+  },
+  {
+    "sr": "b",
+    "title": "requirements not stated by the customer, but necessary for the specified or intended use, when known"
+  },
+  {
+    "sr": "c",
+    "title": "requirements specified by the organization"
+  },
+  {
+    "sr": "d",
+    "title": "statutory and regulatory requirements applicable to the products and services"
+  },
+  {
+    "sr": "e",
+    "title": "contract or order requirements differing from those previously expressed"
+  }
+]

@@ -66,3 +66,9 @@
 - When all approvals and reviews are done, the previous version become - Archived
 
 - FOR adding related docs, use should only add id. Everything else auto fills
+
+Auditor:
+John Smith
+
+Auditee:
+Dave Parker

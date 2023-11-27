@@ -1,0 +1,530 @@
+---
+title: Audit execution details
+description: Audit execution module
+layout: dashboard
+footer: false
+---
+
+<div class="p-4 bg-white block border-b border-gray-200 lg:mt-1.5 dark:bg-gray-800 dark:border-gray-700">
+    <div class="w-full mb-4 block">
+        <h1 class="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">Audit plan execution</h1>
+    </div>
+
+
+    <div class="grid grid-cols-4 gap-4">
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Standard</label>
+            <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <option >ISO 9001</option>
+                <option >ISO 14001</option>
+                <option >ISO 20000</option>
+                <option >ISO 45001</option>
+            </select>
+        </div>
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit/Functional area</label>
+            <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <option selected>Sales / Marketing</option>
+                <option>Procurement, Purchase</option>
+                <option>Stores, Warehouse</option>
+                <option>Logistics, Dispatch</option>
+                <option>HR & courses</option>
+                <option>Administration</option>
+                <option>Design & Development</option>
+            </select>
+        </div>
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audits</label>
+            <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <option selected>11-Dec-23</option>
+                <option>21-Mar-24</option>
+            </select>
+        </div>
+        <div class="align-baseline">
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">&nbsp;</label>
+            <button type="submit" class="align-bottom text-white justify-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                Search
+            </button>
+        </div>
+    </div>
+
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+
+    <div class="grid grid-cols-4 gap-4">
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date</label>
+            <div class="text-gray-700 dark:text-white font-semibold">11-Dec-2023</div>    
+        </div>
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Auditor *</label>
+            <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <option selected>John Smith</option>
+                <option>Another person</option>
+            </select>
+        </div>
+        <div>
+            <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Auditee *</label>
+            <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <option selected>Dave Parker</option>
+                <option>Someone else</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
+    <ul class="flex flex-wrap -mb-px">
+        <li class="mr-2">
+            <a href="/execution/details4/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">
+                4. Context of the organization
+            </a>
+        </li>
+        <li class="mr-2">
+            <a href="/execution/details5/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">
+                5. Leadership
+            </a>
+        </li>
+        <li class="mr-2">
+            <a href="/execution/details6/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">
+                6. Planning
+            </a>
+        </li>
+        <li class="mr-2">
+            <a href="/execution/details7/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">
+                7. Support
+            </a>
+        </li>
+        <li class="mr-2">
+            <a href="/execution/details8/" class="inline-block p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500">
+                8. Operation
+            </a>
+        </li>
+        <li class="mr-2">
+            <a href="/execution/details9/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">
+                9. Performance evaluation
+            </a>
+        </li>
+        <li class="mr-2">
+            <a href="/execution/details10/" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">
+                10. Improvement
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="flex flex-col">
+    <div class="overflow-x-auto">
+        <div class="inline-block min-w-full align-middle">
+            <div class="overflow-hidden shadow">
+
+
+
+
+                <div id="accordion-nested-parent" data-accordion="collapse">
+                    <h2 id="ah-8-1">
+                      <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" 
+                        data-accordion-target="#ab-8-1">
+                        <span>8.1 Operational planning and control</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                      </button>
+                    </h2>
+                    <div id="ab-8-1" class="hidden">
+                      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                        <p class="text-gray-500 dark:text-gray-400">TO DO</p>
+                      </div>
+                    </div>
+                    <h2 id="ah-8-2">
+                      <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" 
+                        data-accordion-target="#ab-8-2">
+                        <span>8.2 Requirements for products and services</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                      </button>
+                    </h2>
+                    <div id="ab-8-2" class="hidden">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+
+
+                        <!-- 8-2 Nested accordion -->
+                        <div id="accordion-nested-collapse" data-accordion="collapse">
+
+                            <h2 id="ah-8-2-1">
+                                <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#ab-8-2-1"">
+                                    <span>8.2.1 Customer communication</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="ab-8-2-1" class="hidden">
+                                <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                                    <p class="text-gray-500 dark:text-gray-400 mb-4">Communication with customers shall include:</p>
+
+
+                                    <!-- 8-2-1 Nested accordion -->
+                                    <div id="accordion-nested-collapse" data-accordion="collapse">
+
+                                        {{< products.inline >}}
+                                        {{- range (index $.Site.Data "clauses-8-2-1") }}
+
+                                        <h2 id="ah-8-2-1-{{ .sr }}">
+                                            <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                                data-accordion-target="#ab-8-2-1-{{.sr}}">
+                                                <span>{{ .sr }}) {{ .title }}</span>
+                                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                                </svg>
+                                            </button>
+                                        </h2>
+                                        <div id="ab-8-2-1-{{ .sr }}" class="hidden">
+                                            <div class="p-5 border border-gray-200 dark:border-gray-700">
+
+                                                <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observations</label>
+                                                <textarea id="description" placeholder="Observations" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Non conformance</label>
+                                                <textarea id="description" placeholder="Non conformance" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Opportunities for improvement</label>
+                                                <textarea id="description" placeholder="Opportunities for improvement" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Positives</label>
+                                                <textarea id="description" placeholder="Positives" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                <button type="submit" class="text-white justify-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                                                    Save checkpoint
+                                                </button>
+
+                                            </div>
+                                        </div>
+
+                                        {{ end -}}
+                                        {{< /products.inline >}}
+
+                                    </div>
+                                    <!-- End: Nested accordion  -->
+
+                                </div>
+                            </div>
+
+                            <h2 id="ah-8-2-2">
+                                <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#ab-8-2-2">
+                                <span>8.2.2 Determining the requirements for products and services</span>
+                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                                </button>
+                            </h2>
+                            <div id="ab-8-2-2" class="hidden">
+                                <div class="p-5 border border-gray-200 dark:border-gray-700">
+                                    <p class="text-gray-500 dark:text-gray-400 mb-4">When  determining  the  requirements  for  the  products  and  services  to  be  offered  to  customers,  the  organization shall ensure that:</p>
+                                </div>
+                            </div>
+
+
+                            <h2 id="ah-8-2-3">
+                                <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#ab-8-2-3">
+                                <span>8.2.3 Review of the requirements for products and services</span>
+                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                                </button>
+                            </h2>
+                            <div id="ab-8-2-3" class="hidden">
+                                <div class="p-5 border border-gray-200 dark:border-gray-700">
+
+
+                                    <!-- 8-2-3 Nested accordion -->
+                                    <div id="accordion-nested-collapse" data-accordion="collapse">
+
+                                        <h2 id="ah-8-2-3-1">
+                                            <button type="button" class="flex text-left justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                                data-accordion-target="#ab-8-2-3-1">
+                                                <span>8.2.3.1 The organization shall ensure that it has the ability to meet the requirements for products and services to be offered to customers. The organization shall conduct a review before committing to supply products and services to a customer, to include:</span>
+                                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                                </svg>
+                                            </button>
+                                        </h2>
+                                        <div id="ab-8-2-3-1" class="hidden">
+                                            <div class="p-5 border border-gray-200 dark:border-gray-700">
+                                                <!-- 8-2-3-1 Nested accordion -->
+                                                <div id="accordion-nested-collapse" data-accordion="collapse">
+
+                                                    {{< products.inline >}}
+                                                    {{- range (index $.Site.Data "clauses-8-2-3-1") }}
+
+                                                    <h2 id="ah-8-2-3-1-{{ .sr }}">
+                                                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                                            data-accordion-target="#ab-8-2-3-1-{{.sr}}">
+                                                            <span>{{ .sr }}) {{ .title }}</span>
+                                                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                                            </svg>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ab-8-2-3-1-{{ .sr }}" class="hidden">
+                                                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+
+                                                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observations</label>
+                                                            <textarea id="description" placeholder="Observations" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Non conformance</label>
+                                                            <textarea id="description" placeholder="Non conformance" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Opportunities for improvement</label>
+                                                            <textarea id="description" placeholder="Opportunities for improvement" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Positives</label>
+                                                            <textarea id="description" placeholder="Positives" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                            <button type="submit" class="text-white justify-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                                                                Save checkpoint
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+
+                                                    {{ end -}}
+                                                    {{< /products.inline >}}
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <h2 id="ah-8-2-3-2">
+                                            <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                                data-accordion-target="#ab-8-2-3-2">
+                                                <span>8.2.3.2 The organization shall retain documented information, as applicable:</span>
+                                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                                </svg>
+                                            </button>
+                                        </h2>
+                                        <div id="ab-8-2-3-2" class="hidden">
+                                            <div class="p-5 border border-gray-200 dark:border-gray-700">
+                                                <!-- 8-2-3-2 Nested accordion -->
+                                                <div id="accordion-nested-collapse" data-accordion="collapse">
+
+                                                    {{< products.inline >}}
+                                                    {{- range (index $.Site.Data "clauses-8-2-3-2") }}
+
+                                                    <h2 id="ah-8-2-3-2-{{ .sr }}">
+                                                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                                            data-accordion-target="#ab-8-2-3-2-{{.sr}}">
+                                                            <span>{{ .sr }}) {{ .title }}</span>
+                                                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                                            </svg>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="ab-8-2-3-2-{{ .sr }}" class="hidden">
+                                                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+
+                                                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observations</label>
+                                                            <textarea id="description" placeholder="Observations" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Non conformance</label>
+                                                            <textarea id="description" placeholder="Non conformance" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Opportunities for improvement</label>
+                                                            <textarea id="description" placeholder="Opportunities for improvement" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                            <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Positives</label>
+                                                            <textarea id="description" placeholder="Positives" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                                            <button type="submit" class="text-white justify-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                                                                Save checkpoint
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+
+                                                    {{ end -}}
+                                                    {{< /products.inline >}}
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- End: Nested accordion  -->
+
+
+                                </div>
+                            </div>
+                            
+
+                            <h2 id="ah-8-2-4">
+                                <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#ab-8-2-4">
+                                <span>8.2.4 Changes to requirements for products and services</span>
+                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                </svg>
+                                </button>
+                            </h2>
+                            <div id="ab-8-2-4" class="hidden">
+                                <div class="p-5 border border-gray-200 dark:border-gray-700">
+                                    <p class="text-gray-500 dark:text-gray-400 mb-4">When  determining  the  requirements  for  the  products  and  services  to  be  offered  to  customers,  the  organization shall ensure that:</p>
+
+                                    <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Observations</label>
+                                    <textarea id="description" placeholder="Observations" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                    <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Non conformance</label>
+                                    <textarea id="description" placeholder="Non conformance" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                    <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Opportunities for improvement</label>
+                                    <textarea id="description" placeholder="Opportunities for improvement" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                    <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Positives</label>
+                                    <textarea id="description" placeholder="Positives" rows="4" class="mb-4 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+
+                                    <button type="submit" class="text-white justify-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+                                        Save checkpoint
+                                    </button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- End: Nested accordion -->
+
+                        </div>
+                    </div>
+                    <h2 id="ah-8-3">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" 
+                            data-accordion-target="#ab-8-3">
+                          <span>8.3 Design and development of products and services</span>
+                          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                          </svg>
+                        </button>
+                    </h2>
+                    <div id="ab-8-3" class="hidden">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+                            <p class="text-gray-500 dark:text-gray-400">TO DO</p>
+                        </div>
+                    </div>
+
+                    <h2 id="ah-8-4">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#ab-8-4">
+                          <span>8.4 Control of externally provided processes, products and services</span>
+                          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                          </svg>
+                        </button>
+                    </h2>
+                    <div id="ab-8-4" class="hidden">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+                            <p class="text-gray-500 dark:text-gray-400">TO DO</p>
+                        </div>
+                    </div>
+
+                    <h2 id="ah-8-5">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#ab-8-5">
+                          <span>8.5 Production and service provision</span>
+                          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                          </svg>
+                        </button>
+                    </h2>
+                    <div id="ab-8-5" class="hidden">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+                            <p class="text-gray-500 dark:text-gray-400">TO DO</p>
+                        </div>
+                    </div>
+                      
+                    <h2 id="ah-8-6">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" 
+                            data-accordion-target="#ab-8-6">
+                          <span>8.6 Release of products and services</span>
+                          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                          </svg>
+                        </button>
+                      </h2>
+                      <div id="ab-8-6" class="hidden">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+                          <p class="text-gray-500 dark:text-gray-400">TO DO</p>
+                        </div>
+                      </div>
+                      
+                    <h2 id="ah-8-7">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#ab-8-7" aria-expanded="false">
+                          <span>8.7 Control of nonconforming outputs</span>
+                          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                          </svg>
+                        </button>
+                      </h2>
+                      <div id="ab-8-7" class="hidden">
+                        <div class="p-5 border border-gray-200 dark:border-gray-700">
+                          <p class="text-gray-500 dark:text-gray-400">TO DO.</p>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Main modal -->
+<div id="authentication-modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative w-full max-w-md max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="authentication-modal">
+                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                </svg>
+                <span class="sr-only">Close modal</span>
+            </button>
+            <div class="px-6 py-6 lg:px-8">
+                <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Please find the NC to link</h3>
+                <form class="space-y-6" action="#">
+                    <div>
+                        <input type="search" name="title" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Search by title">
+                    </div>
+                    <table class="min-w-full divide-y divide-gray-200 table-fixed dark:divide-gray-600">
+                        <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+                            <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                                <td class="p-3 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <input type="radio" name="x" class="mr-3">
+                                    NC number 1
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                                <td class="p-3 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <input type="radio" name="x" class="mr-3">
+                                    Found NC number 234
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
+                                <td class="p-3 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <input type="radio" name="x" class="mr-3">
+                                    And another NC here
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button type="submit" class=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Link NC</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+

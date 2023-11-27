@@ -1,30 +1,26 @@
 [
-    {
-        "number": "4.1",
-        "checkpoint": "Understanding the organization and its context",
-        "nonConformance": "Something about conformance here ...",
-        "opportunityToImprove": "Things can always be improved",
-        "positve": "Ghanta bhi nahi !"
-    },
-    {
-        "number": "4.2",
-        "checkpoint": "Understanding the needs and expectations of interested parties",
-        "nonConformance": "Something about conformance here ...",
-        "opportunityToImprove": "Things can always be improved",
-        "positve": "Babaji ka thullu"
-    },
-    {
-        "number": "4.3",
-        "checkpoint": "Determining the scope of the quality management system",
-        "nonConformance": "",
-        "opportunityToImprove": "Things can always be improved",
-        "positve": ""
-    },
-    {
-        "number": "4.4",
-        "checkpoint": "Quality management system and its processes",
-        "nonConformance": "",
-        "opportunityToImprove": "Things can always be improved",
-        "positve": ""
-    }
+  {
+    "number": "5.1",
+    "level": "level-2",
+    "checkpoint": "Leadership and commitment",
+    "nonConformance": "Something about conformance here ...",
+    "opportunityToImprove": "Things can always be improved",
+    "positive": "Ghanta bhi nahi !"
+  },
+  {
+    "number": "5.2",
+    "level": "level-2",
+    "checkpoint": "Policy",
+    "nonConformance": "Something about conformance here ...",
+    "opportunityToImprove": "Things can always be improved",
+    "positive": "Babaji ka thullu"
+  },
+  {
+    "number": "5.3",
+    "level": "level-2",
+    "checkpoint": "Organizational roles, responsibilities and authorities",
+    "nonConformance": "",
+    "opportunityToImprove": "Things can always be improved",
+    "positive": ""
+  }
 ]

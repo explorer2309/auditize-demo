@@ -1,6 +1,6 @@
 [
   {
-    "area": "Sales / Marketing",
+    "area": "Top Management",
     "jan": "",
     "feb": "",
     "mar": "",
@@ -15,7 +15,37 @@
     "dec": ""
   },
   {
-    "area": "Procurement, Purchase",
+    "area": "Management Team",
+    "jan": "",
+    "feb": "",
+    "mar": "",
+    "apr": "",
+    "may": "",
+    "jun": "3-4",
+    "jul": "",
+    "aug": "",
+    "sep": "",
+    "oct": "",
+    "nov": "30",
+    "dec": ""
+  },
+  {
+    "area": "Sales, Marketing and Business Development",
+    "jan": "",
+    "feb": "",
+    "mar": "",
+    "apr": "",
+    "may": "",
+    "jun": "3-4",
+    "jul": "",
+    "aug": "",
+    "sep": "",
+    "oct": "",
+    "nov": "30",
+    "dec": ""
+  },
+  {
+    "area": "Supply Chain, Procurement, Purchase and Contracts",
     "jan": "",
     "feb": "",
     "mar": "",
@@ -60,7 +90,7 @@
     "dec": ""
   },
   {
-    "area": "HR & courses",
+    "area": "Design and Development",
     "jan": "15-16",
     "feb": "",
     "mar": "",
@@ -75,7 +105,7 @@
     "dec": "5"
   },
   {
-    "area": "Administration",
+    "area": "Production and Manufacturing",
     "jan": "11-12",
     "feb": "",
     "mar": "",
@@ -90,7 +120,7 @@
     "dec": ""
   },
   {
-    "area": "Design & Development",
+    "area": "Quality Assurance, Quality Control and Labs",
     "jan": "",
     "feb": "",
     "mar": "",
@@ -101,7 +131,37 @@
     "aug": "",
     "sep": "",
     "oct": "",
-    "nov": "28-29",
-    "dec": ""
+    "nov": "",
+    "dec": "10-11"
+  },
+  {
+    "area": "Maintanance, Operation and IT",
+    "jan": "",
+    "feb": "",
+    "mar": "",
+    "apr": "",
+    "may": "25",
+    "jun": "",
+    "jul": "",
+    "aug": "",
+    "sep": "",
+    "oct": "",
+    "nov": "",
+    "dec": "10-11"
+  },
+  {
+    "area": "Human Resource, Training and Administration",
+    "jan": "",
+    "feb": "",
+    "mar": "",
+    "apr": "",
+    "may": "25",
+    "jun": "",
+    "jul": "",
+    "aug": "",
+    "sep": "",
+    "oct": "",
+    "nov": "",
+    "dec": "10-11"
   }
 ]

@@ -1,34 +1,26 @@
 [
     {
-        "docType": "Financial Reports",
-        "docNumber": "D0000743",
-        "docTitle": "Balance Sheet",
-        "department": "Finance",
-        "createdBy": "Rob",
+        "docType": "Product information documentation",
+        "docNumber": "D0000421",
+        "docTitle": "Product Description Document",
+        "department": "Sales, Marketing and Business Development",
+        "createdBy": "Rob Lake",
         "status": "Approved"
     },
     {
-        "docType": "Financial Reports",
-        "docNumber": "D0000743",
-        "docTitle": "Balance Sheet",
-        "department": "Finance",
-        "createdBy": "Rob",
+        "docType": "Maintenance and service guide",
+        "docNumber": "D0000121",
+        "docTitle": "Maintenance Documentation",
+        "department": "Sales, Marketing and Business Development",
+        "createdBy": "Sarah Bill",
         "status": "Approved"
     },
     {
-        "docType": "Financial Reports",
-        "docNumber": "D0000743",
-        "docTitle": "Balance Sheet",
-        "department": "Finance",
-        "createdBy": "Rob",
-        "status": "Approved"
-    },
-    {
-        "docType": "Financial Reports",
-        "docNumber": "D0000743",
-        "docTitle": "Balance Sheet",
-        "department": "Finance",
-        "createdBy": "Rob",
+        "docType": "Promotional documentation",
+        "docNumber": "D0000965",
+        "docTitle": "Product promotion booklet",
+        "department": "Sales, Marketing and Business Development",
+        "createdBy": "Graham Mullier",
         "status": "Approved"
     }
 ]

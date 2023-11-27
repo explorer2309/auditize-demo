@@ -41,7 +41,7 @@ footer: false
     <div class="items-center justify-between block sm:flex">
         <h2 class="text-lg font-semibold text-gray-900 sm:text-xl dark:text-white w-1/2">Reviews</h2>
         <div class="w-1/2 text-right">
-            <label for="price" class="mb-2 text-sm font-medium text-gray-900 dark:text-white">Target review date: 12-12-2023</label>
+            <label for="price" class="mb-2 text-sm font-medium text-gray-900 dark:text-white">Target review date: 12-Dec-2023</label>
             <button type="button" class="text-xs ml-3 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" data-modal-target="date-change-modal" data-modal-toggle="date-change-modal">Change</button>
         </div>
     </div>
@@ -73,7 +73,9 @@ footer: false
         <tbody class="bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700">
             <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">Leslie Livingston</td>
-                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">Awiating review</td>
+                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    <span class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300">Awaiting review</span>
+                </td>
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white"></td>
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white"></td>
 
@@ -83,14 +85,14 @@ footer: false
                         <svg class="w-4 h-4 mr-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 21">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6.072 10.072 2 2 6-4m3.586 4.314.9-.9a2 2 0 0 0 0-2.828l-.9-.9a2 2 0 0 1-.586-1.414V5.072a2 2 0 0 0-2-2H13.8a2 2 0 0 1-1.414-.586l-.9-.9a2 2 0 0 0-2.828 0l-.9.9a2 2 0 0 1-1.414.586H5.072a2 2 0 0 0-2 2v1.272a2 2 0 0 1-.586 1.414l-.9.9a2 2 0 0 0 0 2.828l.9.9a2 2 0 0 1 .586 1.414v1.272a2 2 0 0 0 2 2h1.272a2 2 0 0 1 1.414.586l.9.9a2 2 0 0 0 2.828 0l.9-.9a2 2 0 0 1 1.414-.586h1.272a2 2 0 0 0 2-2V13.8a2 2 0 0 1 .586-1.414Z"/>
                         </svg>
-                        Review
+                        Reviewed
                     </button>
                     <button type="button" id="updateProductButton"  data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"  
                         class="text-xs inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
                         <svg class="w-4 h-4 mr-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m13 7-6 6m0-6 6 6m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
                         </svg>
-                        Reject
+                        Revise and resubmit
                     </button>
                 </td>
             </tr>
@@ -99,32 +101,32 @@ footer: false
                 <td class="p-4 text-base">
                     <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Reviewed</span>
                 </td>
-                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">Wah wah wah ...</td>
-                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">12-12-2023</td>
+                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white"></td>
+                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">12-Oct-2023</td>
 
                 <td class="p-4 space-x-2 whitespace-nowrap">
                     <button type="button" class="text-xs px-3 py-2 font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
                         <svg class="w-3 h-3 mr-2 inline-flex items-center text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 14">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m12 7 3-3-3-3m0 12H5.5a4.5 4.5 0 1 1 0-9H14"/>
                         </svg>
-                        Undo Review
+                        Undo review
                     </button>
                 </td>
             </tr>
             <tr class="hover:bg-gray-100 dark:hover:bg-gray-700">
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">Helene Engels</td>
                 <td class="p-4 text-base">
-                    <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Rejected</span>
+                    <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">Change requested</span>
                 </td>
-                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">What rubbish is this?</td>
-                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">12-12-2023</td>
+                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">Update customer query handling process diagram</td>
+                <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white">12-Oct-2023</td>
 
                 <td class="p-4 space-x-2 whitespace-nowrap">
                     <button type="button" class="text-xs px-3 py-2 font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
                         <svg class="w-3 h-3 mr-2 inline-flex items-center text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 14">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m12 7 3-3-3-3m0 12H5.5a4.5 4.5 0 1 1 0-9H14"/>
                         </svg>
-                        Undo reject
+                        Undo change request
                     </button>
                 </td>
             </tr>
@@ -132,9 +134,9 @@ footer: false
                 <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-white" colspan="5">
                     <select id="countries" class="mr-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option selected>Choose a reviewer</option>
-                        <option value="US">Ena</option>
-                        <option value="CA">Mina</option>
-                        <option value="FR">Deeka</option>
+                        <option value="US">Jane Austin</option>
+                        <option value="CA">Catherine Black</option>
+                        <option value="FR">Steve Haynes</option>
                     </select>
                     
                     <button type="button" id="updateProductButton" data-drawer-target="drawer-update-product-default" data-drawer-show="drawer-update-product-default" aria-controls="drawer-update-product-default" data-drawer-placement="right" 

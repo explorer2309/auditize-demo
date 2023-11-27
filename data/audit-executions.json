@@ -1,20 +1,20 @@
 [
     {
         "standard": "ISO 9001",
-        "department": "Sales & marketing",
-        "auditDate": "25-01-2024",
+        "department": "Sales, Marketing and Business Development",
+        "auditDate": "30-Nov-2023",
         "status": "In progress"
     },
     {
         "standard": "ISO 9001",
-        "department": "Sales & marketing",
-        "auditDate": "25-01-2024",
+        "department": "Design and Development",
+        "auditDate": "28-Nov-2023",
         "status": "In progress"
     },
     {
         "standard": "ISO 9001",
-        "department": "Sales & marketing",
-        "auditDate": "25-01-2024",
+        "department": "Quality Assurance, Quality Control and Labs",
+        "auditDate": "29-Nov-2023",
         "status": "In progress"
     }
 ]

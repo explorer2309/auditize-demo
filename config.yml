@@ -1,12 +1,12 @@
 languageCode: "en"
 title: "Auditize Site"
 # baseURL:                "http://localhost:1313"
-baseURL: "https://dialrepaint.com/auditize"
+baseURL: "http://auditize.acumenbay.com/"
 enableInlineShortcodes: true
 canonifyURLs: true
 
 params:
-  homepage: "https://dialrepaint.com/auditize"
+  homepage: "http://auditize.acumenbay.com/"
   authors: Auditize
   social_image_path: images/og-image.png
 

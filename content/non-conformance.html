@@ -1,6 +1,6 @@
 ---
-title: CAPA
-description: CAPA module
+title: Non Conformance
+description: NC module
 layout: dashboard
 footer: false
 ---
@@ -139,6 +139,14 @@ footer: false
     <form action="#">
         <div class="space-y-4">
             <div>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit criteria</label>
+                <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                    <option>Standard</option>
+                    <option>Legal and regulatory</option>
+                    <option>Client specification</option>
+                </select>
+            </div>
+            <div>
                 <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Standards</label>
                 <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option>ISO 9001</option>
@@ -195,8 +203,11 @@ footer: false
                 <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Status *</label>
                 <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option>Please select ...</option>
-                    <option>Active</option>
-                    <option selected>Completed</option>
+                    <option>In progress</option>
+                    <option selected>Submitted</option>
+                    <option>Accepted</option>
+                    <option>Rejected</option>
+                    <option>Closed</option>
                     <option>Abandoned</option>
                 </select>
             </div>
@@ -217,7 +228,13 @@ footer: false
                 <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Site</label>
                 <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Timbaktu" required="">
             </div>
-
+            <div>
+                <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Owner *</label>
+                <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                    <option>Please select ...</option>
+                    <option>John Smith</option>
+                </select>
+            </div>
 
             <div class="flex justify-center w-full pb-4 space-x-4 md:px-4">
                 <button type="submit" class="text-white w-full justify-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
@@ -268,7 +285,15 @@ footer: false
                     <div class="hidden p-4 rounded-lg" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
                         <form action="#">
-                            <div class="grid grid-cols-2 gap-6">
+                            <div class="grid grid-cols-3 gap-6">
+                                <div>
+                                    <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Audit criteria</label>
+                                    <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                                        <option>Standard</option>
+                                        <option>Legal and regulatory</option>
+                                        <option>Client specification</option>
+                                    </select>
+                                </div>
                                 <div>
                                     <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Standards</label>
                                     <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
@@ -303,6 +328,13 @@ footer: false
                                     </select>
                                 </div>
                                 <div>
+                                    <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Owner</label>
+                                    <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                                        <option>Please select ...</option>
+                                        <option>John Smith</option>
+                                    </select>
+                                </div>
+                                <div>
                                     <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Title</label>
                                     <input type="text" name="title" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Lack of documentation" required="">
                                 </div>
@@ -324,9 +356,11 @@ footer: false
                                 <div>
                                     <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Status</label>
                                     <select id="category-create" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                                        <option>Please select ...</option>
-                                        <option>Active</option>
-                                        <option selected>Completed</option>
+                                        <option>In progress</option>
+                                        <option selected>Submitted</option>
+                                        <option>Accepted</option>
+                                        <option>Rejected</option>
+                                        <option>Closed</option>
                                         <option>Abandoned</option>
                                     </select>
                                 </div>
@@ -346,6 +380,23 @@ footer: false
                                 <div>
                                     <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Site</label>
                                     <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Inverness" required="">
+                                </div>
+                                <div>
+                                    <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Raised by</label>
+                                    <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="Ashok Singh" required="">
+                                </div>
+                                <div>
+                                    <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Document reference number</label>
+                                    <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="DO-QA-045" required="">
+                                </div>
+                                <div>
+                                    <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Associated clause</label>
+                                    <input type="text" name="price" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" value="8.2.1.a" required="">
+                                </div>
+                                <div>
+                                    <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Associated audit</label>
+                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">23-Jan-24 : Sales and marketing</a>
+
                                 </div>
                             </div>
                     
@@ -386,8 +437,13 @@ footer: false
                                     <label for="price" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Method of verification</label>
                                     <textarea id="description" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="">Conduct internal review</textarea>
                                 </div>
+                                <div></div>
                                 <div>
-                                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">target date for completion</label>
+                                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Target completion date</label>
+                                    <input type="date" name="title" id="name" value="2024-02-08" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required="">
+                                </div>
+                                <div>
+                                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Actual completion date</label>
                                     <input type="date" name="title" id="name" value="2024-02-08" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required="">
                                 </div>
                             </div>
@@ -412,8 +468,12 @@ footer: false
                         <textarea id="description" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="">Update document and resubmit</textarea>
                     </div>
                     <button type="submit" class="mt-6 text-white whitespace-nowrap justify-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-                        Save
+                        Accept correction plan
                     </button>
+                    <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                        Reject correction plan
+                    </button>
+
                 </div>
 
                 <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="tasks" role="tabpanel" aria-labelledby="tasks-tab">
